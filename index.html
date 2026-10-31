@@ -1,275 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
-    <title>Cv Evens</title>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Evens THÈS — Graphiste & développeur web en Haïti</title>
+<meta name="description" content="Portfolio d’Evens THÈS, graphiste, développeur web et formateur à Pétion-Ville, Haïti. Découvrez ses identités visuelles, affiches et son parcours informatique.">
+<meta name="theme-color" content="#122a37">
+<meta property="og:title" content="Evens THÈS — Design & numérique"><meta property="og:description" content="Des identités qui se remarquent. Des solutions qui servent. Découvrez mon univers graphique et numérique."><meta property="og:type" content="website"><meta property="og:image" content="assets/jazz.webp">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="stylesheet" href="style.css">
+<script src="configuration.js" defer></script>
+<script src="projets.js" defer></script>
+<script src="app.js" defer></script>
 </head>
-<body data-bs-spy="scroll" data-bs-target="#navbar-example2">
-    <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-dark sticky-top">
-        <div   class="container-fluid">
-          <a class="navbar-brand" href="#"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div  class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div  class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#about">Moi</a>
-              <a class="nav-link" href="#skills">Compétences</a>
-              <a class="nav-link" href="#experience">Expériences</a>
-              <a class="nav-link" href="#education">Éducation</a>
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-              <a class="nav-link" href="#recommendations">Recommandations</a>
-
-            </div>
-          </div>
-        </div>
-    </nav>
-    <section id="about" class="container-fluid">
-      <div class="profil-picture">
-         <img src="images/me.png" alt="pic-profil" width="400px" height="400px" class=" col-8 col-lg-4 rounded-circle">
-      </div>
-       <div class="heading">
-           <h1>Hello, C'est moi Evens</h1>
-           <h3>Dévloppeur Web</h3>
-           <a href="docs/CV-EVENS-THES-01.pdf" class="button1">Télecharger CV</a>
-       </div>
-    </section>
-    <section id="skills">
-        <div class="divider"></div>
-        <div class="heading">
-            <h2>Compétences</h2>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                   <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 85%">
-                            <h5>
-                                HTML 85%
-                            </h5>
-                        </div>
-                  </div>
-                  <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar" style="width: 85%">
-                        <h5>
-                            CSS 85%
-                        </h5>
-                    </div>
-                  </div>
-                  <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar" style="width: 90%">
-                        <h5>
-                            JAVASCRIPT 90%
-                        </h5>
-                    </div>
-              </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                        <div class="progress-bar" style="width: 85%">
-                            <h5>
-                                JQUERY 85%
-                            </h5>
-                        </div>
-                  </div>
-                  <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar" style="width: 80%">
-                        <h5>
-                            BOOTSRAP 80%
-                        </h5>
-                    </div>
-                 </div>
-                 <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar" style="width: 85%">
-                        <h5>
-                            PHP 85%
-                        </h5>
-                    </div>
-              </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="experience">
-        <div class="container">
-            <div class="divider white"></div>
-            <div class="heading">
-                <h2>Expérience Professionnelle</h2>
-            </div>
-            <ul class="timeline">
-                <li>
-                    <div class="timeline-badge"><span class="bi bi-briefcase-fill"></span></div>
-                    <div class="timeline-panel-container">
-                        <div class="timeline-panel">
-                           <div class="timeline-heading">
-                            <h3>MAIRIE DE PÉTION-VILLE</h3>
-                            <h4>Superviseur Informatique</h4>
-                            <p class="text-muted"><span class="bi bi-clock-fill"></span> 2022-2023</p>
-                           </div>
-                           <div class="timeline-body">
-                            <p>Ajout de la possibilité d'écouter une traduction dans Google Translate</p>
-                            <p>Développement de Google Suggest en mode Offline</p>
-                            <p>Nouveau design du player de Youtube adapté au mobile</p>
-                           </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-badge"><span class="bi bi-briefcase-fill"></span></div>
-                    <div class="timeline-panel-container-inverted">
-                        <div class="timeline-panel">
-                           <div class="timeline-heading">
-                            <h3>CAREP</h3>
-                            <h4>Développeur Web</h4>
-                            <p class="text-muted"><span class="bi bi-clock-fill"></span> 2020-2022</p>
-                           </div>
-                           <div class="timeline-body">
-                            <p>Développement du bouton Share pour les applis Web mobile</p>
-                            <p>Lancement automatique des vidéos en mode mute depuis la Timeline</p>
-                           </div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-badge"><span class="bi bi-briefcase-fill"></span></div>
-                    <div class="timeline-panel-container">
-                        <div class="timeline-panel">
-                           <div class="timeline-heading">
-                            <h3>IMG</h3>
-                            <h4>Professeur d'Informatique</h4>
-                            <p class="text-muted"><span class="bi bi-clock-fill"></span> 2020-2022</p>
-                           </div>
-                           <div class="timeline-body">
-                            <p>Création et Développement du Retweet pour l'appli Web</p>
-                            <p>Intégration des vidéos sur les applis web mobile</p>
-                           </div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-    <section id="education">
-        <div class="container">
-            <div class="divider"></div>
-            <div class="heading">
-                <h2>Education</h2>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="education-block">
-                        <h5>2015-2019</h5>
-                        <span class="bi bi-award-fill"></span>
-                        <h3>UNITECH</h3>
-                        <h4>Sciences Informatiques</h4>
-                        <div class="divider"></div>
-                        <p>Administration de bases de Données</p>
-                        <p>Devloppement Web</p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="education-block">
-                        <h5>2023</h5>
-                        <span class="bi bi-award-fill"></span>
-                        <h3>UDEMY</h3>
-                        <h4>Formation Dévloppeur Web</h4>
-                        <div class="divider"></div>
-                        <p>Html, Css, Javascript </p>
-                        <p>Responsive Design</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="portfolio">
-       <div class="container">
-         <div class="divider white"></div>
-         <div class="heading">
-             <h2>Portfolio</h2>
-         </div>
-          <div class="row">
-              <div class="col-md-4">
-                <a href="https://facebook.com" target="_blank" >
-                   <img src="images/facebook_share.png" class="img-thumbnail" alt="facebook_share" >
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="https://google.com" target="_blank" >
-                   <img src="images/google_translate.png" class="img-thumbnail" alt="google_translate" >
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="https://twitter.com" target="_blank" >
-                   <img src="images/twitter_video.png" class="img-thumbnail" alt="twitter_video" >
-                </a>
-              </div>
-          </div>
-          <div class="row">
-              <div class="col-md-4">
-                <a href="https://youtube.com" target="_blank" >
-                   <img src="images/youtube.png" class="img-thumbnail" alt="youtube" >
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="https://twitter.com" target="_blank" >
-                   <img src="images/twitter_retweet.png" class="img-thumbnail" alt="twitter_retweet" >
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="https://facebook.com" target="_blank" >
-                   <img src="images/facebook_video.png" class="img-thumbnail" alt="facebook_video" >
-                </a>
-              </div>
-          </div>
-      </div>
-    </section>
-    <section id="recommendations">
-        <div class="container">
-            <div class="divider"></div>
-            <div class="heading">
-                <h2>Recommandations</h2>
-            </div>
-            <div id="myCarousel" class="carousel slide text-center carousel carousel-dark slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active"  >
-                    <h3>"Evens t'es le meilleur! Merci pour tout..."</h3>
-                    <h4>Larry Page, Google Co-Founder</h4>
-                  </div>
-                  <div class="carousel-item">
-                    <h3>"Merci Evens de m'avoir appris à coder... Tout ça c'est grâce à toi!"</h3>
-                    <h4>Mark Zuckerberg, Facebook Founder and CEO</h4>
-                  </div>
-                  <div class="carousel-item">
-                    <h3>"L'esprit le plus créatif que j'ai vu de toute ma vie..."</h3>
-                    <h4>Jack Dorsey, Twitter Founder and CEO</h4>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-       </div>
-    </section>
-    <footer class="text-center">
-        <a href="#about"><span class="bi-chevron-up"></span></a>
-         <h5>©vensydesign</h5>
-    </footer>
-</body>
-</html>
+<body>
+<a class="skip" href="#main">Aller au contenu</a>
+<header class="header"><div class="nav-wrap">
+<a class="brand" href="#accueil" aria-label="Evens THÈS, accueil"><span class="brand-symbol">e<span>.</span></span><span>EVENS THÈS<span class="brand-sub">DESIGN & NUMÉRIQUE</span></span></a>
+<button class="menu-toggle" aria-controls="navigation" aria-expanded="false" aria-label="Ouvrir le menu"><span></span><span></span></button>
+<nav id="navigation" aria-label="Navigation principale"><a href="#realisations">Réalisations</a><a href="#expertises">Expertises</a><a href="#parcours">Mon parcours</a><a class="nav-contact" href="#contact">Parlons de votre projet <span aria-hidden="true">↗</span></a></nav>
+</div></header>
+<main id="main">
+<section class="hero wrap" id="accueil">
+<div class="hero-copy"><p class="eyebrow"><img class="hero-avatar" data-profile-photo src="assets/photo-profil.webp" alt="Portrait d’Evens THÈS" width="52" height="52"> EVENS THÈS · PÉTION-VILLE, HAÏTI</p>
+<h1>Vos idées.<br>Une identité.<br><span>De l’impact.</span></h1>
+<p class="hero-intro">Graphiste, développeur web et formateur.<br>Je relie la créativité à la technologie pour donner forme à vos projets.</p>
+<div class="hero-actions"><a class="button primary" href="#realisations">Explorer mes réalisations <span aria-hidden="true">↗</span></a><a class="text-link" href="#parcours">Faire connaissance <span aria-hidden="true">↓</span></a></div>
+<div class="hero-note"><span class="note-line"></span> Une approche créative. Un esprit technique.</div></div>
+<div class="hero-art" aria-label="Aperçu de mes créations graphiques"><div class="art-grid"></div><div class="art-label">LE DESIGN EN ACTION <span>01—15</span></div>
+<button class="hero-piece hero-jazz" data-project="jazz" aria-label="Découvrir l’affiche Après-midi Jazz"><img src="assets/jazz-thumb.webp" alt="Affiche Après-midi Jazz" width="566" height="800" fetchpriority="high"></button>
+<button class="hero-piece hero-feel" data-project="feel-free" aria-label="Découvrir le logo Feel Free"><img src="assets/feel-free-thumb.webp" alt="Identité visuelle Feel Free" width="740" height="750"></button>
+<button class="hero-piece hero-igh" data-project="igh" aria-label="Découvrir le logo Institut Gonavien d’Haïti"><img src="assets/igh-thumb.webp" alt="Identité visuelle IGH" width="750" height="750"></button>
+<div class="round-note" aria-hidden="true"><span>CRÉER<br>AVEC DU<br><strong>SENS.</strong></span><b>↗</b></div><p class="art-footer">IDENTITÉS, AFFICHES & NOUVELLES IDÉES.</p></div>
+</section>
+<div class="discipline-band"><div class="wrap"><span>Identité visuelle</span><i>✳</i><span>Communication graphique</span><i>✳</i><span>Développement web</span><i>✳</i><span>Transmission</span></div></div>
+<section class="work-section wrap section" id="realisations">
+<div class="section-heading"><div><p class="eyebrow">01 / SÉLECTION DE PROJETS</p><h2>Du concept<br>au <em>visuel.</em></h2></div><p class="section-lead">Des univers différents, une même attention :<br>donner à chaque projet sa propre expression.</p></div>
+<a class="featured-link" href="projet-igh.html"><span>PROJET À LA UNE</span><strong>iGH — une identité, plusieurs supports.</strong><span class="featured-arrow" aria-hidden="true">↗</span></a>
+<div class="filter-bar"><div class="filters" role="group" aria-label="Filtrer les réalisations"><button class="filter active" data-filter="all" aria-pressed="true">Tout voir <span>15</span></button><button class="filter" data-filter="logos" aria-pressed="false">Logos <span>09</span></button><button class="filter" data-filter="affiches" aria-pressed="false">Affiches <span>06</span></button></div><span class="filter-hint">Cliquez pour explorer <span aria-hidden="true">↗</span></span></div>
+<p class="sr-only" role="status" id="work-status"></p><div class="work-grid" id="work-grid"></div>
+<div class="more-wrap"><button class="button outline" id="more-projects">Voir les 15 projets <span aria-hidden="true">↓</span></button></div>
+<noscript><p>Découvrez quelques créations ci-dessus. Activez JavaScript pour afficher la galerie complète.</p></noscript>
+</section>
+<section class="expertise-section section" id="expertises"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">02 / CE QUE JE PEUX VOUS APPORTER</p><h2>Créer. Construire.<br><em>Transmettre.</em></h2></div><p class="section-lead">Une vision d’ensemble pour accompagner<br>votre communication et vos besoins numériques.</p></div>
+<div class="service-list">
+<article class="service"><span class="service-num">01</span><h3>Design graphique</h3><div><p>Une présence visuelle qui vous ressemble, du premier logo aux supports qui font vivre votre communication.</p><div class="tags"><span>Logos</span><span>Affiches & flyers</span><span>Supports de communication</span></div></div><span class="service-icon" aria-hidden="true">✳</span></article>
+<article class="service"><span class="service-num">02</span><h3>Développement <br>web</h3><div><p>Des pages web structurées, des interfaces lisibles et une approche attentive aux besoins de votre activité.</p><div class="tags"><span>HTML & CSS</span><span>JavaScript</span><span>PHP & MySQL</span></div></div><span class="service-icon" aria-hidden="true">⌘</span></article>
+<article class="service"><span class="service-num">03</span><h3>Formation & <br>informatique</h3><div><p>Rendre les outils plus accessibles grâce à la formation en bureautique, à l’infographie et au soutien technique.</p><div class="tags"><span>Bureautique</span><span>Infographie</span><span>Support technique</span></div></div><span class="service-icon" aria-hidden="true">↗</span></article>
+</div></div></section>
+<section class="about-section wrap section" id="parcours"><div class="about-intro"><p class="eyebrow">03 / L’ESPRIT DERRIÈRE LES PROJETS</p><h2>Créatif par passion.<br><em>Informaticien</em><br>par formation.</h2><p>Je suis Evens THÈS, basé à Pétion-Ville, en Haïti. Mon parcours réunit les sciences informatiques, la conception graphique et l’enseignement.</p><p>J’aime donner une forme claire aux idées et rendre la technologie utile au quotidien. De la création d’un visuel à la transmission d’un savoir, je garde le même fil conducteur : comprendre, structurer et réaliser.</p><a class="text-link" href="#contact">Échangeons sur votre projet <span aria-hidden="true">↗</span></a><figure class="profile-card"><div class="profile-photo-wrap"><img id="profile-photo" data-profile-photo src="assets/photo-profil.webp" alt="Portrait d’Evens THÈS" width="400" height="480" loading="lazy"></div><figcaption><span class="eyebrow">DESIGN & NUMÉRIQUE</span><span class="profile-name">Evens <strong>THÈS</strong></span><span class="profile-role">Graphiste · Développeur web<br>Formateur</span><span class="profile-place">Pétion-Ville, Haïti</span></figcaption></figure></div>
+<div class="about-details"><div class="detail-title">QUELQUES REPÈRES <span aria-hidden="true">↙</span></div>
+<ol class="timeline"><li><span class="date">2022 — 2023</span><h3>Superviseur informatique</h3><p class="org">Mairie de Pétion-Ville</p><p>Suivi des équipements, soutien technique, mises à jour et sécurité informatique.</p></li><li><span class="date">2020 — 2022</span><h3>Graphiste & formateur</h3><p class="org">Centre Archi-Élite Professionnel · CAREP</p><p>Enseignement de la bureautique et de l’infographie, conception graphique et gestion de contenus numériques.</p></li><li><span class="date">2015 — 2019</span><h3>Sciences informatiques</h3><p class="org">Université de Technologie d’Haïti · UNITECH</p><p>Un socle technique au service de la conception et du développement de projets numériques.</p></li></ol>
+<div class="toolbox"><p class="eyebrow">DANS MA BOÎTE À OUTILS</p><p>Photoshop <span>·</span> CorelDRAW <span>·</span> Premiere Pro<br>HTML / CSS <span>·</span> JavaScript <span>·</span> PHP<br>MySQL <span>·</span> Excel</p></div></div></section>
+<section class="contact-section section" id="contact"><div class="wrap"><div class="contact-top"><p class="eyebrow">04 / ET SI ON CRÉAIT QUELQUE CHOSE ?</p><span>PÉTION-VILLE, HAÏTI <span aria-hidden="true">↗</span></span></div><div class="contact-layout"><div><h2>Votre prochaine<br>idée commence<br><em>par un échange.</em></h2><p>Une identité à imaginer, un support à créer ou un projet web à construire ? Présentez-moi ce que vous avez en tête.</p><a class="email-link" href="mailto:evensthes96@gmail.com">evensthes96@gmail.com <span aria-hidden="true">↗</span></a><a class="phone-link" href="tel:+50944028243">+509 4402-8243</a></div>
+<form class="contact-form" id="contact-form"><h3>Parlez-moi de votre projet</h3><label for="name">Votre nom</label><input name="name" id="name" autocomplete="name" required placeholder="Comment vous appelez-vous ?" maxlength="100"><label for="subject">Votre besoin</label><select name="subject" id="subject"><option>Identité visuelle / logo</option><option>Affiche / communication</option><option>Projet web</option><option>Formation / informatique</option><option>Autre projet</option></select><label for="message">Quelques mots sur votre idée</label><textarea name="message" id="message" required rows="3" placeholder="Le contexte, vos besoins, votre calendrier…" maxlength="3000"></textarea><button class="button lime" type="submit">Préparer mon e-mail <span aria-hidden="true">↗</span></button><p class="form-note" id="form-note" role="status">Ouvre votre messagerie avec le message préparé.</p></form></div></div></section>
+</main>
+<footer class="footer wrap"><a class="footer-name" href="#accueil">EVENS THÈS<span>DESIGN & NUMÉRIQUE</span></a><p>© <span id="year">2026</span> Evens THÈS. Tous droits réservés.</p><a href="#accueil">Retour en haut <span aria-hidden="true">↑</span></a></footer>
+<dialog id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-toolbar"><span id="dialog-counter"></span><button class="icon-button" id="dialog-close" aria-label="Fermer le projet">✕</button></div><div class="dialog-body"><div class="dialog-image-wrap"><img id="dialog-image" src="assets/igh.webp" alt=""><button class="variant-button" id="variant-button" hidden>Voir la version sur fond blanc</button></div><div class="dialog-info"><p class="eyebrow" id="dialog-type"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p><p class="dialog-role">Mon rôle <strong>Conception graphique</strong></p><a class="text-link" id="dialog-original" href="assets/igh.webp" target="_blank" rel="noopener">Ouvrir l’image <span aria-hidden="true">↗</span></a><a class="button primary case-link" id="dialog-case" href="projet-igh.html" hidden>Voir le projet complet <span aria-hidden="true">↗</span></a><div class="dialog-arrows"><button class="icon-button" id="project-prev" aria-label="Projet précédent">←</button><button class="icon-button" id="project-next" aria-label="Projet suivant">→</button></div><p class="dialog-tip">Utilisez aussi les flèches du clavier pour naviguer.</p></div></div></dialog>
+</body></html>

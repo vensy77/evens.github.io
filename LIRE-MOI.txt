@@ -1,0 +1,50 @@
+PORTFOLIO LOCAL — EVENS THÈS
+==========================
+
+OUVRIR LE SITE SUR WINDOWS
+1. Faites un clic droit sur l’archive ZIP, puis « Extraire tout ».
+2. Ouvrez le dossier portfolio-evens-thes extrait.
+3. Double-cliquez sur index.html pour ouvrir le site dans Edge ou Chrome.
+
+Le site est autonome : aucune installation, aucun compte ChatGPT et aucun
+serveur WAMP ne sont nécessaires. Les images, styles et scripts sont inclus.
+La galerie fonctionne aussi sans connexion Internet.
+
+REMPLACER VOTRE PHOTO DE PROFIL
+Votre photo fournie est déjà intégrée à l’accueil et dans « Mon parcours ».
+Pour la remplacer plus tard :
+1. Copiez la nouvelle photo dans le dossier assets.
+   Exemple de nom : photo-profil.webp
+Si vous remplacez directement assets/photo-profil.webp en gardant le même nom,
+il suffit d’actualiser le navigateur. Si le nom ou l’extension change :
+2. Ouvrez configuration.js avec VS Code ou le Bloc-notes.
+3. Remplacez cette ligne :
+     photo: "assets/photo-profil.webp",
+   par le chemin de la nouvelle image. Exemple :
+     photo: "assets/nouvelle-photo.jpg",
+4. Enregistrez, puis actualisez index.html dans votre navigateur.
+
+Le nom et l’extension doivent correspondre exactement au fichier :
+.jpg, .jpeg, .png ou .webp. Un portrait vertical est conseillé.
+Votre photo apparait à l’accueil et dans la section « Mon parcours ».
+Le monogramme ET sert uniquement de solution de secours si une photo manque.
+Si le chemin indique un fichier introuvable, le monogramme reste affiché.
+
+MODIFIER LE SITE
+- index.html : accueil, services, parcours et contact.
+- projet-igh.html : présentation du projet iGH.
+- style.css : couleurs, présentation et adaptation mobile.
+- projets.js : titres, descriptions et catégories des réalisations.
+- configuration.js : chemin de votre photo.
+- app.js : filtres, vues agrandies et préparation des e-mails.
+- assets/ : images du site.
+
+CONTACT
+Le formulaire prépare un e-mail dans la messagerie du visiteur.
+Il n’envoie rien automatiquement et ne possède pas de serveur de réception.
+Le lien téléphone ouvre l’application d’appel si l’appareil le permet.
+
+CONSERVATION DES FICHIERS
+Conservez ensemble tous les fichiers et le dossier assets.
+Pour modifier les textes, ouvrez le dossier dans VS Code.
+Le badge iGH contenant un numéro fiscal et une signature n’est pas inclus.
