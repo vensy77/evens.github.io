@@ -6,5 +6,7 @@
 // La photo apparait dans la section « Mon parcours ».
 window.PORTFOLIO_CONFIG = {
   photo: "assets/photo-profil.webp",
-  photoAlt: "Portrait d’Evens THÈS"
+  photoAlt: "Portrait d’Evens THÈS",
+  whatsappNumber: "50944028243",
+  whatsappMessage: "Bonjour Evens, je souhaite échanger au sujet d’un projet."
 };

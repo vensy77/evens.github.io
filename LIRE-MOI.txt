@@ -47,4 +47,9 @@ Le lien téléphone ouvre l’application d’appel si l’appareil le permet.
 CONSERVATION DES FICHIERS
 Conservez ensemble tous les fichiers et le dossier assets.
 Pour modifier les textes, ouvrez le dossier dans VS Code.
-Le badge iGH contenant un numéro fiscal et une signature n’est pas inclus.
+Le badge iGH est présenté dans une version publique avec numéro fiscal et signature masqués.
+
+WHATSAPP
+Le bouton ouvre une discussion au +509 4402-8243.
+Le numéro et le message préparé se modifient dans configuration.js.
+Aucun message WhatsApp n’est envoyé automatiquement.

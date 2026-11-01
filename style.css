@@ -23,3 +23,20 @@
 .hero-avatar{width:52px;height:52px;flex:0 0 52px;object-fit:cover;object-position:center;border-radius:50%;border:3px solid white;box-shadow:0 0 0 1px var(--line);margin-right:4px}
 .hero .eyebrow:has(.hero-avatar){gap:12px;min-height:52px}
 @media(max-width:700px){.hero-avatar{width:46px;height:46px;flex-basis:46px}.hero .eyebrow:has(.hero-avatar){letter-spacing:.9px;gap:9px;font-size:8px}}
+
+/* Contact WhatsApp : une action visible sur les deux pages. */
+.whatsapp-float{position:fixed;right:24px;bottom:24px;z-index:19;display:inline-flex;align-items:center;gap:10px;background:#176c48;color:#fff;min-height:54px;padding:14px 21px;border-radius:30px;font-size:13px;font-weight:600;box-shadow:0 5px 22px #122a3733;transition:background .2s,transform .2s}
+.whatsapp-float:hover{background:#125538;transform:translateY(-2px)}
+.whatsapp-float svg,.whatsapp-contact svg{height:25px;width:25px;flex:0 0 25px}
+.whatsapp-contact{margin-top:23px;border:1px solid #ffffffaa;color:#fff;justify-content:flex-start;gap:12px;padding:12px 17px;min-height:50px;font-size:12px}
+.whatsapp-contact>span:first-of-type{font-size:12px}.whatsapp-contact>span:last-child{margin-left:15px}
+.whatsapp-contact:hover{background:#fff;color:var(--ink)}
+.footer{padding-bottom:100px}
+.case-badge-row{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:75px;margin-top:55px;padding-top:50px;border-top:1px solid #ccd5cd}
+.case-badge{margin:0}.case-badge-image{padding:28px;background:var(--paper);display:grid;place-items:center;border-radius:4px}
+.case-badge-image img{width:auto;max-width:100%;height:auto;max-height:540px;object-fit:contain;box-shadow:0 8px 20px #122a3714}
+.case-badge figcaption{display:flex;justify-content:space-between;gap:15px;margin-top:16px;font-size:12px}.case-badge figcaption span{font-size:9px;color:var(--muted)}
+.case-badge-copy h3{font-size:42px;font-weight:500;letter-spacing:-1.8px;line-height:1.1;margin:0 0 25px}
+.case-badge-copy>p:not(.eyebrow){font-size:14px;line-height:1.9;color:var(--muted);max-width:390px}
+.case-badge-copy .badge-privacy-note{font-size:11px!important;margin-top:18px}
+@media(max-width:700px){.whatsapp-float{right:17px;bottom:17px;width:55px;height:55px;min-height:55px;padding:15px;justify-content:center;border-radius:50%}.whatsapp-float>span{display:none}.footer{padding-bottom:85px}.case-badge-row{grid-template-columns:1fr;gap:28px;margin-top:35px;padding-top:35px}.case-badge-image{padding:20px}.case-badge-image img{max-height:470px}.case-badge-copy h3{font-size:35px;letter-spacing:-1.4px}.case-badge-copy>p:not(.eyebrow){font-size:13px}.case-badge figcaption{font-size:11px}}

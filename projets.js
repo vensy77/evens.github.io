@@ -5,7 +5,7 @@ window.PORTFOLIO_PROJECTS = [
     "title": "Institut Gonavien d’Haïti",
     "category": "logos",
     "type": "Identité visuelle & supports",
-    "description": "Un même univers bleu et blanc décliné sur le logo, une carte de visite et une affiche de formation pour l’Institut Gonavien d’Haïti.",
+    "description": "Un même univers bleu et blanc décliné sur le logo, une carte de visite, un badge et une affiche de formation pour l’Institut Gonavien d’Haïti.",
     "alt": "Logo bleu et blanc de l’Institut Gonavien d’Haïti"
   },
   {
