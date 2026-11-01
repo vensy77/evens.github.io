@@ -1,6 +1,58 @@
 // Catalogue du portfolio : textes et references des images.
 window.PORTFOLIO_PROJECTS = [
   {
+    "id": "gospel-asaph",
+    "title": "Gospel Asaph — 23e anniversaire",
+    "category": "affiches",
+    "type": "Affiche événementielle · 2026",
+    "description": "Une affiche pour le 23e anniversaire de la chorale Gospel Asaph. Le bleu, les ornements dorés et les portraits réunissent le thème et les artistes invités dans une même composition.",
+    "alt": "Affiche bleue et dorée du 23e anniversaire de Gospel Asaph en 2026"
+  },
+  {
+    "id": "stanley-jean-louis",
+    "title": "Stanley Jean Louis",
+    "category": "supports",
+    "type": "Carte de visite & carte promotionnelle",
+    "description": "Deux supports de communication immobilière pour Stanley Jean Louis : une carte de visite et une carte promotionnelle. Le portrait, le rouge et le gris créent un lien entre les deux compositions.",
+    "alt": "Carte promotionnelle immobilière pour Stanley Jean Louis, avec portrait, maison et accents rouges",
+    "casePage": "projet-stanley.html"
+  },
+  {
+    "id": "lasol",
+    "title": "École de musique Lasol",
+    "category": "affiches",
+    "type": "Affiches de formation & camp d’été",
+    "description": "Trois affiches pour l’école de musique Lasol : une première présentation des cours, la session d’octobre 2025 et le camp d’été 2026. Des compositions autour de la musique et des activités pour enfants.",
+    "alt": "Affiche Lasol des cours de musique d’octobre 2025, avec des enfants et des instruments",
+    "casePage": "projet-lasol.html",
+    "image": "assets/lasol-musique-2025.webp",
+    "thumbnail": "assets/lasol-musique-2025-thumb.webp"
+  },
+  {
+    "id": "mariage-olgaline-vedner",
+    "title": "Olgaline & Vedner",
+    "category": "supports",
+    "type": "Invitation de mariage · 2026",
+    "description": "Une invitation de mariage aux fleurs blanches et dorées, avec des touches de vert. Les ornements encadrent les noms et les informations de la cérémonie.",
+    "alt": "Invitation de mariage d’Olgaline Jean et Vedner Madeus, fleurs blanches, or et feuilles vertes"
+  },
+  {
+    "id": "mariage-wilnise-wilbert",
+    "title": "Wilnise & Wilbert",
+    "category": "supports",
+    "type": "Invitation de mariage · 2024",
+    "description": "Une invitation de mariage en bleu nuit et or. Le portrait du couple, les cadres géométriques et les motifs floraux composent la mise en page.",
+    "alt": "Invitation de mariage de Wilnise et Wilbert, portrait du couple sur fond bleu nuit et motifs dorés"
+  },
+  {
+    "id": "clinique-dentaire",
+    "title": "Clinique bucco-dentaire",
+    "category": "affiches",
+    "type": "Affiche de services · 2025",
+    "description": "Une affiche pour une clinique bucco-dentaire avec le docteur Cleeford Brevil. Une palette verte et des images en cadres hexagonaux structurent la présentation des services.",
+    "alt": "Affiche de clinique bucco-dentaire, portrait du praticien et visuels de soins dans des hexagones verts"
+  },
+  {
     "id": "igh",
     "title": "Institut Gonavien d’Haïti",
     "category": "logos",
@@ -49,14 +101,6 @@ window.PORTFOLIO_PROJECTS = [
     "type": "Affiche de formation · 2023",
     "description": "Un portrait central, des couleurs contrastées et une hiérarchie claire pour présenter une formation.",
     "alt": "Affiche de formation en maquillage sur fond violet"
-  },
-  {
-    "id": "lasol",
-    "title": "École de musique Lasol",
-    "category": "affiches",
-    "type": "Affiche de formation",
-    "description": "Une mise en page qui réunit les instruments et les informations pratiques d’une école de musique.",
-    "alt": "Affiche verte des cours de musique de l’école Lasol"
   },
   {
     "id": "entreeux",

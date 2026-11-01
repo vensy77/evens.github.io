@@ -14,7 +14,7 @@ function render(){
   const article=document.createElement('article');article.className='work-card';article.dataset.category=w.category;article.dataset.project=w.id;
   const button=document.createElement('button');button.className='work-button';button.setAttribute('aria-label','Découvrir '+w.title);
   const image=document.createElement('div');image.className='work-image';
-  const img=document.createElement('img');img.src='assets/'+w.id+'-thumb.webp';img.alt=w.alt;img.loading='lazy';img.width=750;img.height=750;
+  const img=document.createElement('img');img.src=w.thumbnail||'assets/'+w.id+'-thumb.webp';img.alt=w.alt;img.loading='lazy';img.width=750;img.height=750;
   const arrow=document.createElement('span');arrow.className='work-open';arrow.setAttribute('aria-hidden','true');arrow.textContent='↗';image.append(img,arrow);
   const meta=document.createElement('div');meta.className='work-meta';const title=document.createElement('h3');title.textContent=w.title;const n=document.createElement('span');n.textContent=String(works.indexOf(w)+1).padStart(2,'0');meta.append(title,n);
   const type=document.createElement('p');type.className='work-type';type.textContent=w.type;
@@ -28,7 +28,7 @@ document.querySelector('#more-projects').addEventListener('click',()=>{expanded=
 function updateDialog(){
  const w=works[currentProject];variant=false;
  document.querySelector('#dialog-title').textContent=w.title;document.querySelector('#dialog-type').textContent=w.type;document.querySelector('#dialog-description').textContent=w.description;
- const img=document.querySelector('#dialog-image');img.src='assets/'+w.id+'.webp';img.alt=w.alt;
+ const img=document.querySelector('#dialog-image');img.src=w.image||'assets/'+w.id+'.webp';img.alt=w.alt;
  document.querySelector('#dialog-original').href=img.getAttribute('src');
  document.querySelector('#dialog-counter').textContent=String(currentProject+1).padStart(2,'0')+' / '+String(works.length).padStart(2,'0')+' — RÉALISATIONS';
  const caseLink=document.querySelector('#dialog-case');caseLink.hidden=!w.casePage;
