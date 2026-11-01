@@ -33,6 +33,7 @@ Si le chemin indique un fichier introuvable, le monogramme reste affiché.
 MODIFIER LE SITE
 - index.html : accueil, services, parcours et contact.
 - projet-igh.html : présentation du projet iGH.
+- projet-kayatis.html : logo et deux affiches du projet KAYATIS.
 - style.css : couleurs, présentation et adaptation mobile.
 - projets.js : titres, descriptions et catégories des réalisations.
 - configuration.js : chemin de votre photo.

@@ -40,3 +40,9 @@
 .case-badge-copy>p:not(.eyebrow){font-size:14px;line-height:1.9;color:var(--muted);max-width:390px}
 .case-badge-copy .badge-privacy-note{font-size:11px!important;margin-top:18px}
 @media(max-width:700px){.whatsapp-float{right:17px;bottom:17px;width:55px;height:55px;min-height:55px;padding:15px;justify-content:center;border-radius:50%}.whatsapp-float>span{display:none}.footer{padding-bottom:85px}.case-badge-row{grid-template-columns:1fr;gap:28px;margin-top:35px;padding-top:35px}.case-badge-image{padding:20px}.case-badge-image img{max-height:470px}.case-badge-copy h3{font-size:35px;letter-spacing:-1.4px}.case-badge-copy>p:not(.eyebrow){font-size:13px}.case-badge figcaption{font-size:11px}}
+
+/* Projet KAYATIS */
+.kayatis-cover{background:#fff}.kayatis-cover img{height:clamp(240px,38vw,500px);max-height:none;object-fit:cover;object-position:center}
+.color-dot.kayatis-blue{background:#1600ff;border-color:#1600ff}.color-dot.kayatis-red{background:#f30000;border-color:#f30000}.color-dot.kayatis-yellow{background:#f7a000;border-color:#f7a000}.color-dot.kayatis-green{background:#42ee00;border-color:#42ee00}
+.kayatis-supports .support-img,.kayatis-supports .case-support-grid figure:first-child .support-img{min-height:0;padding:20px}.kayatis-supports .support-img{transition:box-shadow .2s}.kayatis-supports .support-img:hover{box-shadow:0 0 0 2px var(--blue)}.kayatis-supports .case-side-note{max-width:100%;margin-top:22px}.case-archive-note{font-size:11px;color:var(--muted);line-height:1.7;margin:35px 0 0}
+@media(max-width:700px){.kayatis-supports .case-support-grid>div+div{margin-top:35px}.kayatis-supports .support-img,.kayatis-supports .case-support-grid figure:first-child .support-img{padding:14px}.kayatis-supports figcaption{flex-wrap:wrap}.kayatis-page .case-color-notes{gap:10px}}

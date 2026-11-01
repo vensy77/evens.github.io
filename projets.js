@@ -6,7 +6,17 @@ window.PORTFOLIO_PROJECTS = [
     "category": "logos",
     "type": "Identité visuelle & supports",
     "description": "Un même univers bleu et blanc décliné sur le logo, une carte de visite, un badge et une affiche de formation pour l’Institut Gonavien d’Haïti.",
-    "alt": "Logo bleu et blanc de l’Institut Gonavien d’Haïti"
+    "alt": "Logo bleu et blanc de l’Institut Gonavien d’Haïti",
+    "casePage": "projet-igh.html"
+  },
+  {
+    "id": "kayatis",
+    "title": "KAYATIS",
+    "category": "logos",
+    "type": "Identité visuelle & affiches",
+    "description": "Le logo de KAYATIS accompagné de deux affiches de formation : photographie et retouche, puis sérigraphie. Une identité colorée déclinée dans deux univers visuels.",
+    "alt": "Logo KAYATIS bleu, avec une maison, des personnages colorés et un pinceau",
+    "casePage": "projet-kayatis.html"
   },
   {
     "id": "jazz",

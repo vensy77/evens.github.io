@@ -20,7 +20,7 @@ function render(){
   const type=document.createElement('p');type.className='work-type';type.textContent=w.type;
   button.append(image,meta,type);button.addEventListener('click',()=>openProject(w.id));article.append(button);return article;
  }));
- const more=document.querySelector('#more-projects');more.hidden=activeFilter!=='all';more.innerHTML=expanded?'Réduire la sélection <span aria-hidden="true">↑</span>':'Voir les 15 projets <span aria-hidden="true">↓</span>';
+ const more=document.querySelector('#more-projects');more.hidden=activeFilter!=='all';more.innerHTML=expanded?'Réduire la sélection <span aria-hidden="true">↑</span>':'Voir les '+works.length+' projets <span aria-hidden="true">↓</span>';
  statusEl.textContent=visible.length+' réalisations affichées'+(activeFilter==='all'?' sur '+works.length:'');
 }
 document.querySelectorAll('.filter').forEach(button=>button.addEventListener('click',()=>{activeFilter=button.dataset.filter;document.querySelectorAll('.filter').forEach(b=>{const active=b===button;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active))});render()}));
@@ -31,7 +31,8 @@ function updateDialog(){
  const img=document.querySelector('#dialog-image');img.src='assets/'+w.id+'.webp';img.alt=w.alt;
  document.querySelector('#dialog-original').href=img.getAttribute('src');
  document.querySelector('#dialog-counter').textContent=String(currentProject+1).padStart(2,'0')+' / '+String(works.length).padStart(2,'0')+' — RÉALISATIONS';
- document.querySelector('#dialog-case').hidden=w.id!=='igh';
+ const caseLink=document.querySelector('#dialog-case');caseLink.hidden=!w.casePage;
+ if(w.casePage)caseLink.href=w.casePage;
  const btn=document.querySelector('#variant-button');btn.hidden=w.id!=='igh';btn.textContent='Voir la version sur fond blanc';
 }
 function openProject(id){const index=works.findIndex(w=>w.id===id);if(index<0)return;currentProject=index;updateDialog();dialog.showModal();document.body.style.overflow='hidden';}
@@ -49,7 +50,13 @@ const observer=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isInte
 document.querySelectorAll('main>section[id]').forEach(s=>observer.observe(s));
 // Les donnees sont chargees par projets.js, sans requete reseau.
 if(Array.isArray(window.PORTFOLIO_PROJECTS)){
- works=window.PORTFOLIO_PROJECTS;render();
+ works=window.PORTFOLIO_PROJECTS;
+ document.querySelectorAll('.filter').forEach(button=>{
+  const count=button.dataset.filter==='all'?works.length:works.filter(w=>w.category===button.dataset.filter).length;
+  button.querySelector('span').textContent=String(count).padStart(2,'0');
+ });
+ document.querySelector('.art-label span').textContent='01—'+String(works.length).padStart(2,'0');
+ render();
 }else{
  grid.innerHTML='<p class="empty-state">Le fichier projets.js n’a pas pu être chargé.</p>';
  document.querySelector('#more-projects').hidden=true;
